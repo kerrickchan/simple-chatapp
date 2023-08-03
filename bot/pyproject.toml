@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bot"
+version = "0.1.0"
+description = ""
+authors = ["Kerrick Chan <kerrickchan@icloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = {extras = ["torch"], version = "^4.31.0"}
+torch = "^2.0.1"
+accelerate = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
